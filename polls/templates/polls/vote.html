@@ -1,0 +1,4 @@
+<h1>Vote for: {{ question.question_text }}</h1>
+<p>Voting functionality is not implemented yet. This is a placeholder.</p>
+<p><a href="{% url 'polls:results' question.id %}">View Results</a></p>
+<p><a href="{% url 'polls:index' %}">Back to polls</a></p>
