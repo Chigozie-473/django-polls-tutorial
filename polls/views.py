@@ -8,3 +8,6 @@ def detail(request, question_id):
 
 def results(request, question_id):
     return HttpResponse(f"Results for question {question_id}.")
+
+def vote(request, question_id):
+    return HttpResponse(f"Voting on question {question_id}")
