@@ -5,3 +5,6 @@ def index(request):
 
 def detail(request, question_id):
     return HttpResponse(f"You're looking at question {question_id}.")
+
+def results(request, question_id):
+    return HttpResponse(f"Results for question {question_id}.")
